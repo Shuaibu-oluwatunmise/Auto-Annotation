@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Generated folders
+annotations_*/
+YOLO_DATA/
+visualizations/
+plotted/
+temp_*/
+
+# Images (optional - comment out if you want to include sample images)
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Model weights
+*.pt
+*.pth
+*.weights
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
