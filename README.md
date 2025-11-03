@@ -22,7 +22,7 @@ Automatically annotate images for object detection using Grounding DINO, with ze
 1. **Clone the repository:**
 ```bash
 git clone <your-repo-url>
-cd Auto_Annotation
+cd Auto-Annotation
 ```
 
 2. **Create a virtual environment (recommended):**
