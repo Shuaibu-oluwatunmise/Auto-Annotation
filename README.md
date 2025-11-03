@@ -25,15 +25,25 @@ git clone <your-repo-url>
 cd Auto-Annotation
 ```
 
-2. **Create a virtual environment (recommended):**
+2. **Create a virtual environment with Python 3.10-3.12 (recommended):**
+
+> ⚠️ **Important:** Use Python 3.10, 3.11, or 3.12. Python 3.14+ is too new and may have compatibility issues.
 ```bash
+# Check your Python version first
+python --version
+
+# If you have the right version:
 python -m venv venv
 
-# Windows
-.\venv\Scripts\activate
+# If you need a specific version (Windows):
+py -3.12 -m venv venv
+# or
+py -3.11 -m venv venv
 
-# Linux/Mac
-source venv/bin/activate
+# If you need a specific version (Linux/Mac):
+python3.12 -m venv venv
+# or
+python3.11 -m venv venv
 ```
 
 3. **Install dependencies:**
