@@ -69,6 +69,31 @@ Auto_Annotation/
     ├── test/
     └── data.yaml
 ```
+## ⚠️ Known Issues & Fixes
+
+### OpenCV Path Error (Python 3.12.9)
+
+If you encounter `TypeError: Can't convert object to 'str' for 'filename'` when running the script, you need to apply a fix to the `autodistill-grounding-dino` package.
+
+**Quick Fix (Recommended):**
+
+After installing requirements, replace the problematic file:
+
+1. Copy the fixed file from this repo:
+```bash
+# Find your package location
+# Windows: C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python312\Lib\site-packages\autodistill_grounding_dino\
+# Or in venv: .\venv\Lib\site-packages\autodistill_grounding_dino\
+
+# Copy our fixed version
+cp fixes/grounding_dino_model.py <package-location>/grounding_dino_model.py
+```
+
+2. Or manually apply the fix by following instructions in [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+
+> ⚠️ **Note:** This fix is tested and working as of **November 4, 2025** with Python 3.12.9. Future versions of `autodistill-grounding-dino` may fix this issue natively.
+
+For detailed troubleshooting, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md).
 
 ## 🎯 Usage
 
