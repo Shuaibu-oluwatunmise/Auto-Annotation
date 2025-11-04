@@ -11,6 +11,9 @@ torchvision>=0.15.0
 opencv-python>=4.6.0
 Pillow>=7.1.2
 
+# Machine learning
+scikit-learn>=1.0.0
+
 # Utilities
 numpy>=1.20.0
 PyYAML>=5.3.1
