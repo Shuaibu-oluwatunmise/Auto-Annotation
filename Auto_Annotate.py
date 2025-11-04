@@ -16,9 +16,14 @@ input_folder = Path("./images")
 
 # Map folder names to Grounding DINO text prompts
 prompt_mapping = {
+    "Bottle": "water bottle",
+    "Chair": "office chair",
+    "Keyboard": "computer keyboard",
+    "Monitor": "computer monitor",
     "Mouse": "computer mouse",
-    "Keyboard": "keyboard",
     "Mug": "coffee mug",
+    "Notebook": "notebook",
+    "Pen": "pen",
     "Printer": "printer"
 }
 

@@ -23,6 +23,13 @@ images/
 *.gif
 *.bmp
 
+excesses/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
 # Model weights
 *.pt
 *.pth
