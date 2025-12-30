@@ -94,7 +94,7 @@ graph TD
 
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/Shuaibu-oluwatunmise/Auto-Annotation.git
     cd Auto-Annotation
     ```
 
