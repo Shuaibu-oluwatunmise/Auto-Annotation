@@ -8,16 +8,16 @@
 > **Automated, zero-shot image annotation pipeline using Grounding DINO to generate instant YOLOv8 object detection datasets.**
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [System Architecture](#system-architecture)
-- [Installation](#installation)
-- [Usage Workflow](#usage-workflow)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Acknowledgments](#acknowledgments)
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [System Architecture](#-system-architecture)
+- [Installation](#-installation)
+- [Usage Workflow](#-usage-workflow)
+- [Project Structure](#-project-structure)
+- [Configuration](#-configuration)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
